@@ -82,7 +82,7 @@ req.onload = function () {
 
     //Setting up button function
     var buttonFunc = document.getElementsByClassName('btn')
-    console.log("buttonFunc"+buttonFunc)
+    //console.log("buttonFunc"+buttonFunc)
     let page = 0;
     for(let i= 0;i<buttonFunc.length;i++){
         buttonFunc[i].onclick = function(){
